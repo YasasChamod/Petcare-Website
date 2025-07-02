@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 4px;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px #444;
+    margin: 0;
+    flex: 1;
+    text-align: center;
+    
+}
+
+header .logo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    background-color: black;
+}
+
+nav ul li {
+    margin: 0px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #750e0e;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 5px;
+    min-width: 200px; 
+}
+
+.petcare-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid red;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-section p {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color:white;
+    font-style: italic;
+}
+
+.footer-section p::first-letter {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.footer-section ul li a:hover {
+    background-color: #750e0e;
+    border-radius: 4px;
+}
+
+.info-line {
+    padding-left: 40px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #333;
+}
+
+
+.information-icons{
+    flex: 1;
+    margin: 5px;
+    min-width: 200px; 
+}
+
+.information-icons .icons span {
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+}
+.copyright {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: grey;
+    padding: 5px;
+}
+
+
+table {
+    width: 100%;
+    border-spacing: 20px;
+    padding: 40px 20px;
+    min-height: 500px;
+}
+
+td {
+    vertical-align: top;
+    padding: 4px;
+}
+
+.table-headers h3 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.table-descriptions p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.table-images img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid yellow;
+    box-shadow: 0 4px 8px black;
+}
+
+
+.table-links a.button {
+    background-color: #f5a623;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: right;
+    float: right;
+}
+.table-links .button:hover {
+    background-color: #d48806;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
